@@ -25,4 +25,4 @@ user=1137667035&pv=true&__NS_sig3=2212054879c6d647c3cae9c25604b5f2ea2d1895fe&__N
  6. 把str转成bytearray；
  7. 调用`CPU.getClock()`，传入str计算签名；  
 
-`CPU.getClock()`是一个native方法，在`libcore.so`中实现，`__NS_sig3`是根据url中的path和sig计算的，在`libkwsgmain.so`中实现，快手接口签名算法大概就这些，对细节感兴趣的朋友可以私下[联系](http://47.105.95.219)。
+`CPU.getClock()`是一个native方法，在`libcore.so`中实现，`__NS_sig3`是根据url中的path和sig计算的，在`libkwsgmain.so`中实现，快手接口签名算法大概就这些，对细节感兴趣的朋友可以[联系](http://47.105.95.219)。
